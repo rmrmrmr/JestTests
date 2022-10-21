@@ -66,11 +66,11 @@ describe('reverseString', () => {
 
 describe('calcAddition', () => {
   test('addTestOne', () => {
-    const result = Calculator.add(1,1);
+    const result = Calculator.add(1, 1);
     expect(result).toBe(2);
   });
   test('addTestTwo', () => {
-    const result = Calculator.add(10,10);
+    const result = Calculator.add(10, 10);
     expect(result).toBe(20);
   });
   test('addTestThree', () => {
@@ -111,15 +111,15 @@ describe('calcDivision', () => {
 
 describe('calcMultiplication', () => {
   test('multTestOne', () => {
-    const result = Calculator.multiply(1,1);
+    const result = Calculator.multiply(1, 1);
     expect(result).toBe(1);
   });
   test('multTestTwo', () => {
-    const result = Calculator.multiply(10,-1);
+    const result = Calculator.multiply(10, -1);
     expect(result).toBe(-10);
   });
   test('multTestThree', () => {
-    const result = Calculator.multiply(10,0);
+    const result = Calculator.multiply(10, 0);
     expect(result).toBe(0);
   });
 });
